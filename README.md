@@ -36,10 +36,10 @@ llavaモデル（llava-hf/llava-1.5-7b-hf）を読み込むために、mergekit�
 
 **結果**
 
-![図1: 進化計算の各反復に応じたbest_score](https://github.com/user-attachments/assets/8f8d90af-ffaf-4bf2-bef8-37aae0fada77)  
+![図1: 進化計算の各反復に応じたbest_score](https://github.com/user-attachments/assets/3a19f35a-56e5-4f7d-9bf2-b6fd7d0e1564)  
 図１．進化計算の各反復に応じたbest_score
 
-![図2: 画像VQAの例](https://github.com/user-attachments/assets/4ef0ce02-29c0-42e7-a058-d159f97b4d5f)  
+![図2: 画像VQAの例](https://github.com/user-attachments/assets/4f28faf7-35e2-4c40-b33b-c795dade2a27)  
 図２．画像VQAの例
 
 マージ手法はlinearを使用し、画像言語モデルliuhaotian/llava-v1.5-7bと英語モデルmeta-llama/Llama-2-7b-hfと日本語言語モデルelyza/ELYZA-japanese-Llama-2-7bの進化的モデルマージを行いました。Google Colab A100GPUで12時間程度実行しました。best scoreは48.966でした。  
